@@ -1,0 +1,18 @@
+/* 
+ * note that all of these classes are placed manually on the DOM 
+ * using the Stylable integration in the component logic,
+ * in this case, button.tsx
+*/
+.root {
+  background: #b0e0e6;
+}
+
+.icon {
+  /* set image height and display: block */
+  background-image: url('./assets/btnIcon.svg');
+}
+
+.label {
+  font-size: 1.2em;
+  color: rgba(81, 12, 68, 1.0)
+}
